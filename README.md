@@ -2,11 +2,9 @@
 
 ## 📘 Overview
 
-This project explores the **Northwind** database—a classic sample dataset for learning relational databases. The project involved writing various SQL queries to analyze data from Northwind's business operations, and designing an Entity-Relationship Diagram (ERD) to visualize the relationships between its core entities.
+This project explores the **Northwind** database containing Northwind Traders' sales data, a fictitious specialty foods export-import company. The project involved writing various SQL queries to analyze data from Northwind's business operations, and designing an Entity-Relationship Diagram (ERD) to visualize the relationships between its core entities.
 
 ---
-
-## ✅ Completed Tasks
 
 ### 📂 Part 1: SQL Query Tasks
 
@@ -34,6 +32,8 @@ Using the Northwind database, the following SQL queries were implemented and sav
     - **Title**
 17. **Product Name Cleanup** – Removed the "Northwind Traders" prefix from product names for cleaner display.
 
+🛠 Tool used for SQL queries: Access
+
 ---
 
 ### 🧩 Part 2: Entity-Relationship Diagram (ERD)
@@ -46,16 +46,14 @@ An ERD was created using **Chen's Notation** to model the core business logic of
 - **Orders**: Each has a unique order code, date, and order details (product, quantity, unit price).
 - **Purchase Orders (POs)**: Include creation date, unique ordinal number per supplier, payment method (cash/check/transfer), and PO details (product, quantity, unit cost).
 
-🛠 Tools used for ERD:
-- [draw.io](https://draw.io) (recommended for cross-platform compatibility)
-- Microsoft Visio (Windows)
+🛠 Tool used for ERD: draw.io
 
 ---
 
 ## 📁 Deliverables
 
-- `northwind_queries.sql`: Contains all SQL queries listed above.
-- `northwind_ERD.png` or `.drawio`: Visual ER diagram of the database structure.
+- `SQL-Northwind-Traders'-sales-data.sql`: Contains all SQL queries listed above.
+- `Northwind-ER-diagrams.pdf`: Visual ER diagram of the database structure.
 
 ---
 
